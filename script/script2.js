@@ -20,7 +20,7 @@ q="milliseconds seconds minutes hours days weeks months years decades centuries 
 
 setInterval(function() {
   
-  var timespan = countdown(new Date("03/8/2020"), null, -2018);
+  var timespan = countdown(new Date("12/20/2019"), null, -2018);
   var t = $('#time');
   // var theTime = document.getElementById('time');
 
@@ -31,12 +31,14 @@ setInterval(function() {
 }, 1000);
 
 function randombg(){
-  var random= Math.floor(Math.random() * 6) + 0;
-  var bigSize = ["url('src/background1/bg1.jpg')",
-                 "url('src/background1/bg2.jpg')",
-                 "url('src/background1/bg3.jpg')",
-                 "url('src/background1/bg4.jpg')",
-                 "url('src/background1/bg5.jpg')",
-                 "url('src/background1/bg6.jpg')"];
+  var random= Math.floor(Math.random() * 8) + 0;
+  var bigSize = ["url('src/background2/bg1.jpg')",
+                 "url('src/background2/bg2.jpg')",
+                 "url('src/background2/bg3.jpg')",
+                 "url('src/background2/bg4.jpg')",
+                 "url('src/background2/bg5.jpg')",
+                 "url('src/background2/bg6.jpg')",
+                 "url('src/background2/bg7.jpg')",
+                 "url('src/background2/bg8.jpg')"];
   document.getElementById("background").style.backgroundImage=bigSize[random];
 }
