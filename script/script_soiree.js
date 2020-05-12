@@ -19,7 +19,7 @@ function updateTimer() {
 setInterval('updateTimer()', 1000);
 
 function randombg(){
-  var random= Math.floor(Math.random() * 8) + 0;
+  var random= Math.floor(Math.random() * 9) + 0;
   var bigSize = ["url('src/background2/bg1.jpg')",
                  "url('src/background2/bg2.jpg')",
                  "url('src/background2/bg3.jpg')",
@@ -27,6 +27,7 @@ function randombg(){
                  "url('src/background2/bg5.jpg')",
                  "url('src/background2/bg6.jpg')",
                  "url('src/background2/bg7.jpg')",
-                 "url('src/background2/bg8.jpg')"];
+                 "url('src/background2/bg8.jpg')",
+                 "url('src/background2/bg9.jpg')"];
   document.getElementById("background").style.backgroundImage=bigSize[random];
 }
