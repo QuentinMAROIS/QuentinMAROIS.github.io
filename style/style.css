@@ -56,6 +56,25 @@ p {
 	animation: fadein 2s 1.5s forwards;
 }
 
+#background404{
+	position: absolute;
+	left:0 ;
+	right: 0;
+	animation: blurup 0s forwards;
+	background-position: center center;
+	background-size: cover;
+	height:100%;
+}
+
+.forground404{
+	color: white;
+	width:100%;
+	text-align: center;
+	z-index:3;
+	opacity:0;
+	animation: fadein 0s forwards;
+}
+
 .footer{
 	background:rgba(0,0,0,0.30);
 	position: fixed;
