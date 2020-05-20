@@ -11,7 +11,7 @@ php_value display_errors 1
 # Disable directory browsing 
 Options -Indexes
 
-ErrorDocument 404 /404
+ErrorDocument 404 https://quentinmarois.github.io/titanic/404
 
 RewriteEngine On
 RewriteCond %{REQUEST_FILENAME} !-d
