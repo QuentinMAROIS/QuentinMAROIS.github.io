@@ -8,6 +8,9 @@ php_value display_errors 1
   Header set Expires 0
 </IfModule>
 
+# Disable directory browsing 
+Options -Indexes
+
 ErrorDocument 404 /404
 
 RewriteEngine On
